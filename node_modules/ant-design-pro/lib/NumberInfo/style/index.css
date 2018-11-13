@@ -1,0 +1,75 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.antd-pro-number-info-numberInfo .antd-pro-number-info-suffix {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-style: normal;
+  margin-left: 4px;
+}
+.antd-pro-number-info-numberInfo .antd-pro-number-info-numberInfoTitle {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px + 2px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+.antd-pro-number-info-numberInfo .antd-pro-number-info-numberInfoSubTitle {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.antd-pro-number-info-numberInfo .antd-pro-number-info-numberInfoValue {
+  margin-top: 4px;
+  font-size: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.antd-pro-number-info-numberInfo .antd-pro-number-info-numberInfoValue > span {
+  color: rgba(0, 0, 0, 0.85);
+  display: inline-block;
+  line-height: 32px;
+  height: 32px;
+  font-size: 24px;
+  margin-right: 32px;
+}
+.antd-pro-number-info-numberInfo
+  .antd-pro-number-info-numberInfoValue
+  .antd-pro-number-info-subTotal {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px + 2px;
+  vertical-align: top;
+  margin-right: 0;
+}
+.antd-pro-number-info-numberInfo
+  .antd-pro-number-info-numberInfoValue
+  .antd-pro-number-info-subTotal
+  i {
+  font-size: 12px;
+  transform: scale(0.82);
+  margin-left: 4px;
+}
+.antd-pro-number-info-numberInfo
+  .antd-pro-number-info-numberInfoValue
+  .antd-pro-number-info-subTotal
+  .anticon-caret-up {
+  color: #f5222d;
+}
+.antd-pro-number-info-numberInfo
+  .antd-pro-number-info-numberInfoValue
+  .antd-pro-number-info-subTotal
+  .anticon-caret-down {
+  color: #52c41a;
+}
+.antd-pro-number-info-numberInfolight
+  .antd-pro-number-info-numberInfoValue
+  > span {
+  color: rgba(0, 0, 0, 0.65);
+}

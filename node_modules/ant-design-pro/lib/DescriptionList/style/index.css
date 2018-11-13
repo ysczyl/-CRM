@@ -1,0 +1,64 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.antd-pro-description-list-descriptionList .ant-row {
+  margin-bottom: -16px;
+  overflow: hidden;
+}
+.antd-pro-description-list-descriptionList .antd-pro-description-list-title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.antd-pro-description-list-descriptionList .antd-pro-description-list-term {
+  line-height: 20px;
+  padding-bottom: 16px;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.85);
+  white-space: nowrap;
+  display: table-cell;
+}
+.antd-pro-description-list-descriptionList
+  .antd-pro-description-list-term:after {
+  content: ":";
+  margin: 0 8px 0 2px;
+  position: relative;
+  top: -0.5px;
+}
+.antd-pro-description-list-descriptionList .antd-pro-description-list-detail {
+  line-height: 20px;
+  width: 100%;
+  padding-bottom: 16px;
+  color: rgba(0, 0, 0, 0.65);
+  display: table-cell;
+}
+.antd-pro-description-list-descriptionList.antd-pro-description-list-small
+  .ant-row {
+  margin-bottom: -8px;
+}
+.antd-pro-description-list-descriptionList.antd-pro-description-list-small
+  .antd-pro-description-list-title {
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.antd-pro-description-list-descriptionList.antd-pro-description-list-small
+  .antd-pro-description-list-term,
+.antd-pro-description-list-descriptionList.antd-pro-description-list-small
+  .antd-pro-description-list-detail {
+  padding-bottom: 8px;
+}
+.antd-pro-description-list-descriptionList.antd-pro-description-list-large
+  .antd-pro-description-list-title {
+  font-size: 16px;
+}
+.antd-pro-description-list-descriptionList.antd-pro-description-list-vertical
+  .antd-pro-description-list-term {
+  padding-bottom: 8px;
+  display: block;
+}
+.antd-pro-description-list-descriptionList.antd-pro-description-list-vertical
+  .antd-pro-description-list-detail {
+  display: block;
+}

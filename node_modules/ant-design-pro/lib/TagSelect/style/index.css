@@ -1,0 +1,33 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.antd-pro-tag-select-tagSelect {
+  user-select: none;
+  margin-left: -8px;
+  position: relative;
+  overflow: hidden;
+  max-height: 32px;
+  line-height: 32px;
+  transition: all 0.3s;
+}
+.antd-pro-tag-select-tagSelect .ant-tag {
+  padding: 0 8px;
+  margin-right: 24px;
+  font-size: 14px;
+}
+.antd-pro-tag-select-tagSelect.antd-pro-tag-select-expanded {
+  transition: all 0.3s;
+  max-height: 200px;
+}
+.antd-pro-tag-select-tagSelect .antd-pro-tag-select-trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.antd-pro-tag-select-tagSelect .antd-pro-tag-select-trigger i {
+  font-size: 12px;
+}
+.antd-pro-tag-select-tagSelect.antd-pro-tag-select-hasExpandTag {
+  padding-right: 50px;
+}
