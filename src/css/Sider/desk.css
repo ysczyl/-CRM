@@ -39,11 +39,11 @@
 /*控制台客户数据监控详情样式*/
 .animateBox{
 	width: 100%;
-	height: 30px;
 	background-color: black;
 	margin-top:40px;
-	animation:BoxMove 1s infinite linear;
-	animation-iteration-count:1;
+	/*animation:BoxMove 1s infinite linear;*/
+	/*animation-iteration-count:1;*/
+	/*animation-fill-mode:forwards;*/
 }
 .animateButton{
 	float: right;
@@ -52,7 +52,11 @@
 	top:5px;
 	right:15px;
 }
-@keyframes BoxMove {
+@keyframes MoveBefore {
     from {height: 30px;}
     to {height: 500px;}
+}
+@keyframes MoveAfter {
+    from {height: 500px;}
+    to {height: 30px;}
 }
