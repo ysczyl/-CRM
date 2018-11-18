@@ -3,7 +3,7 @@
 	width: 15%;
 	height: 100px;
 	top: 15px;
-	margin-left: 30px;
+	margin-left: 1.5%;
 	border:none;
 	opacity: 0.5;
 }
@@ -59,4 +59,44 @@
 @keyframes MoveAfter {
     from {height: 500px;}
     to {height: 30px;}
+}
+
+
+
+
+
+
+
+/*DeskCenter*/
+.DeskCenterBox1{
+	width: 45%;
+	height: 400px;
+	background: red;
+	float: left;
+	margin-left:3.3%;
+	margin-top: 20px;
+}
+.DeskCenterBox2{
+	width: 45%;
+	height: 400px;
+	background: red;
+	float: left;
+	margin-left:3.3%;
+	margin-top: 20px;
+}
+.DeskCenterBox3{
+	width: 45%;
+	height: 400px;
+	background: red;
+	float: left;
+	margin-left:3.3%;
+	margin-top: 20px;
+}
+.DeskCenterBox4{
+	width: 45%;
+	height: 400px;
+	background: red;
+	float: left;
+	margin-left:3.3%;
+	margin-top: 20px;
 }
