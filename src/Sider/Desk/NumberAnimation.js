@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './../../css/Sider/desk.css';
 const InputGroup = Input.Group;
 const Option = Select.Option;
+var trs = ['ysc','zyl',1,1,1,1,1];
 export default class NumberAnimation extends React.Component {
   constructor(props) {
     super(props);
@@ -26,6 +27,16 @@ export default class NumberAnimation extends React.Component {
   		'animation-fill-mode':'forwards',
   		'animation-iteration-count':'1',
   	}
+    let tr = trs.map((item,index)=>
+            <tr key={index}>
+              <td>number</td>
+              <td>number</td>
+              <td>number</td>
+              <td>number</td>
+              <td>number</td>
+              <td>number</td>
+              <td>number</td>
+            </tr>);
     return (
       <div className='animateBox' style={animate}>
         <div className='animateTop'>
@@ -50,15 +61,7 @@ export default class NumberAnimation extends React.Component {
               <td>今日放弃客户</td>
               <td>昨日回库客户</td>
               </tr>
-              <tr>
-              <td>row 2, cell 1</td>
-              <td>row 2, cell 2</td>
-              <td>row 2, cell 1</td>
-              <td>row 2, cell 2</td>
-              <td>row 2, cell 1</td>
-              <td>row 2, cell 2</td>
-              <td>row 2, cell 1</td>
-              </tr>
+              {tr}
             </table>
         </div>
       </div>
