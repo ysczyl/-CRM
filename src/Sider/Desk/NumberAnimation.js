@@ -6,11 +6,16 @@ export default class NumberAnimation extends React.Component {
     super(props);
     this.state = {
       height:false,
+      flag:false,
     };
   }
   animate(){
     this.setState({height:!this.state.height});
     console.log(this.state.height)
+  }
+  BoxStart(){
+    this.setState({flag:true});
+    console.log(this.state.flag)
   }
   render() {
   	const animate = {
