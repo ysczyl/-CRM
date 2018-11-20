@@ -22,7 +22,7 @@ export default class NumberAnimation extends React.Component {
   }
   render() {
   	const animate = {
-  		'animation':this.state.height?'MoveBefore 1s linear':'MoveAfter 1s linear',
+  		'animation':this.state.height?'MoveBefore 1s linear':'MoveAfter 0s linear',
       height:this.state.height?'500px':'40px',
   		'animation-fill-mode':'forwards',
   		'animation-iteration-count':'1',
