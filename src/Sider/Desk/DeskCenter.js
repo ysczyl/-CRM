@@ -2,6 +2,7 @@ import { Button ,Input ,Select,DatePicker,Icon} from 'antd';
 import React, { Component } from 'react';
 import './../../css/Sider/desk.css';
 import GouTong from './Chart/GouTong.js';
+import Task from './Chart/task.js';
 const InputGroup = Input.Group;
 const Option = Select.Option;
 var Boxs = ['Box1','Box2','Box3','Box1'];
@@ -128,14 +129,7 @@ export default class DeskCenter extends React.Component {
                       </Select>
                   </InputGroup>
               </div>
-              <div style={{padding:'20px'}}>
-                  <strong className='taskSpan'>当日任务剩余0个</strong>
-                  <a className='taskSpan' style={{float:'right'}}>创建任务</a>
-                  <DatePicker className='DatePicker' />
-              </div>
-              <table border="1" className='DeskCenter2Table'>
-                  <tr><td>暂无新任务</td></tr>
-              </table>
+                  <Task />
           </div>
           <div style={Box3}>
               <div className='DeskCenterBoxTOP'>

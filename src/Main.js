@@ -28,6 +28,9 @@ class Main extends Component {
     }
     componentDidMount() {
         }
+    componentWillMount(){
+       console.log(this.props.location.query)
+    }
   render() {
     function Sider(props) {
       if (KeyNow ==1) {

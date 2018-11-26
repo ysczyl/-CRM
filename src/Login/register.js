@@ -8,9 +8,9 @@ export default class Register extends React.Component {
       })
     }
     ischeckemail(){
-    var email = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-    var password1 = document.getElementById("password1").value;
+    let email = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+    let password1 = document.getElementById("password1").value;
     if(password != password1){
       alert("两次密码不一致")
     }
@@ -27,11 +27,15 @@ export default class Register extends React.Component {
         var textNew = !text;
         this.props.zdf(true)
         document.getElementById('Box2').style.display  = 'none';
+        
     }
-    componentWillUpdate(){
-        if (this.props.fdz) {
+    componentDidUpdate (){
+      console.log(this.props.fdz)
+        if (!this.props.fdz) {
           document.getElementById('Box2').style.display  = 'block';
         }
+    }
+    componentDidMount(){
     }
   render() {
           const WidthAll = window.innerWidth;
